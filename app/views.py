@@ -74,4 +74,3 @@ def cadastro_vestibulares(request):
             'year':datetime.now().year,
         })
     )
-        
