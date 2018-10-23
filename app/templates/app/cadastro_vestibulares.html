@@ -1,4 +1,5 @@
 {% extends "app/layout.html" %}
+
 {% block content %}
 
 <div class="jumbotron">
@@ -8,9 +9,8 @@
 <table class="table">
     <tr><th>Nome do vestibular</th></tr>
          {% for vestibular in vestibulares %}
-            <tr><td>{{ vestibular.nome }}</td></tr>
-        {% endfor %}
-
+           <tr><td>{{ vestibular.nome }}</td></tr>
+         {% endfor %}
 </table>
 
 {% endblock %}
