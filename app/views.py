@@ -63,7 +63,7 @@ def cadastro_cursos(request):
         })
     )
 def cadastro_vestibulares(request):
-    assert isistance(request, HttpRequest)
+    assert isinstance(request, HttpRequest)
     return render(
         request,
         'app/cadastro_vestibulares.html',
